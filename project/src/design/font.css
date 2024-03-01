@@ -41,25 +41,21 @@ The FontStruction “Pixel ASCII Braille” (https: //fontstruct.com/fontstructi
     https: //github.com/TakWolf/ark-pixel-fon
 */
 @font-face {
-    font-family: ark16;
-    src: url(./fonts/ark-pixel-16px-monospaced-latin.otf) format('opentype');
-    font-style: oblique;
-}
-
-@font-face {
-    font-family: ark12;
-    src: url(./fonts/ark-pixel-12px-monospaced-latin.otf) format('opentype');
-    font-style: oblique;
-}
-
-@font-face {
-    font-family: ark10;
-    src: url(./fonts/ark-pixel-10px-monospaced-latin.otf) format('opentype');
-    font-style: oblique;
+    font-family: 'Ark Pixel 12px Monospaced latin';
+    src: url('./fonts/Ark-Pixel-12px-Monospaced-latin-Regular.eot');
+    src: url('./fonts/Ark-Pixel-12px-Monospaced-latin-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Ark-Pixel-12px-Monospaced-latin-Regular.woff2') format('woff2'),
+        url('./fonts/Ark-Pixel-12px-Monospaced-latin-Regular.woff') format('woff'),
+        url('./fonts/Ark-Pixel-12px-Monospaced-latin-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 .font_text {
-    font-family: ark12 !important;
+    font-family: 'Ark Pixel 12px Monospaced latin';
+    font-weight: normal;
+    font-style: normal;
 }
 
 .font_text_alt {
