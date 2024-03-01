@@ -1,0 +1,36 @@
+ .webgl {
+     image-rendering: pixelated;
+     overflow: hidden;
+     position: fixed;
+ }
+
+ .me_mask {
+     mask-image: url('../img/me/ME_Mask.png');
+     mask-size: cover;
+     /* OR cover OR fixed values */
+
+     mask-position: center;
+     mask-repeat: no-repeat;
+
+ }
+
+ .dither_mask {
+     mask: url("../img/me/ME_Mask.png") 10px 10px/10px 10px repeat-x exclude;
+     mask-mode: alpha;
+ }
+
+ .render_pixel {
+     /* image-rendering: pixelated; */
+ }
+
+ .filter_shadow {
+     filter: drop-shadow(2px 2px 0px var(--color_background));
+ }
+
+ .filter_blur {
+     backdrop-filter: blur(var(--blur-threshold));
+ }
+
+ .filter_blur_nil {
+     backdrop-filter: none;
+ }

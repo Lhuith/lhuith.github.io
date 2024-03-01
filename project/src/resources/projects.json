@@ -1,0 +1,79 @@
+{
+    "Iota": {
+        "link": "",
+        "preview": "",
+        "description": "Current indie project I work on in my spare time. A Retro style RPG inspired by older zelda series games modernized in the style of games like Fez.",
+        "stack": "C++, Custom, Puxels, OpenGL",
+        "type": "Game"
+    },
+    "Puxels": {
+        "link": "",
+        "preview": "src/img/projects/Puxels.png",
+        "description": "3D pixel editor, originally written in unity and later ported to a stand alone C++ tool to be used with other game projects. Uses a burger/hot-dog algorithm stepper to creator and organize puxels",
+        "stack": "C#, C++, Custom, OpenGL",
+        "type": "Editor, Application"
+    },
+    "Lonely Train Ride": {
+        "link": "https://lhuith.itch.io/lonely-train-ride",
+        "preview": "src/img/projects/LonelyTrainRide.png",
+        "description": "Art project emphasizing the use of digital tools/technology as a way to create artistic intent.",
+        "stack": "C#, Unity, PSVR",
+        "type": "VR Art Project"
+    },
+    "Tiny Lang": {
+        "link": "https://github.com/LhuithArchivedLearning/TinyRepo",
+        "preview": "src/img/projects/tinyLang.png",
+        "description": "Fun little side project I wanted do to learn more about programming & language construction, Credited to Jack W. Crenshaw for the compiler building tutorial",
+        "stack": "Pascal, Turbo Pascal",
+        "type": "language parsing"
+    },
+    "Ray Tracer": {
+        "link": "https://github.com/Lhuith/Raytracer",
+        "preview": "src/img/projects/RayTracing.png",
+        "description": "EDX final project to create from scratch a ray tracer using what was taught in the course",
+        "stack": "C++, OpenMP",
+        "type": "Online EDX Rendering Project"
+    },
+    "Ar-tGallery": {
+        "link": "https://bitbucket.org/ifb398mongoose/ifb398mongoose.bitbucket.io/src/master/",
+        "preview": "src/img/projects/Ar-TGallery.png",
+        "description": "Final Project for QUT university, using web based AR libraries to form and project art spaces in real world coordinates using a mixed QRcode link/anchor",
+        "stack": "Javascript, THREE.js",
+        "type": "QUT University Final Project (Programming)"
+    },
+    "Messaging App": {
+        "link": "https://github.com/LhuithArchivedLearning/CAB403_Assignment",
+        "preview": "src/img/projects/cMessaging.JPG",
+        "description": "University project tasked with creating live messenger application using c code and threads",
+        "stack": "C, Pthreads",
+        "type": "QUT University Final Project (Programming)"
+    },
+    "Ascii Venture": {
+        "link": "https://github.com/Lhuith/AsciiVenture/tree/master/cGames",
+        "preview": "src/img/projects/asciiVenture.png",
+        "description": "WIP, Dwarf fortress inspired ascii game, based on OneLine coder's fun videos on hacking the windows command terminal.",
+        "stack": "C++, Windows API",
+        "type": "Indie Project"
+    },
+    "Super Princess Peach": {
+        "link": "",
+        "preview": "src/img/projects/SPP.png",
+        "description": "SAE project where we took the concept of hero and princess for the classic Mario game and did a role reversal",
+        "stack": "C#, Unity",
+        "type": "University Game Project"
+    },
+    "Einherjar-2D": {
+        "link": "https://lhuith.itch.io/einherjar-2d",
+        "preview": "src/img/projects/Einherjar-2D.png",
+        "description": "Little game I put together and later ported to itch.io as my first indie game submission",
+        "stack": "C#, Unity",
+        "type": "University Game Cycle Project"
+    },
+    "UltraGods": {
+        "link": "https://sweatyyeti.itch.io/ultragods",
+        "preview": "src/img/projects/UltraGods.png",
+        "description": "SAE Games Degree final project, a \"A fast paced 2-4 local-multiplayer game that will conjure heated competitive play in short winded rounds\"",
+        "stack": "C#, Unity",
+        "type": "Collaborative Game Project (Effects & Design)"
+    }
+}

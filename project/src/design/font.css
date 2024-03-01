@@ -1,0 +1,76 @@
+/* 
+https: //www.digitalocean.com/community/tutorials/how-to-load-and-use-custom-fonts-with-css
+*/
+@font-face {
+    font-family: zelda_dx;
+    src: url(./fonts/zelda-dx-tt-brk.regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: hellovetica;
+    src: url(./fonts/hellovetica.ttf) format('truetype');
+}
+
+/* 
+The FontStruction “Pixel ASCII Braille” (https: //fontstruct.com/fontstructions/show/1391265) by “IzzyTH” is licensed under a Creative Commons Attribution Share Alike license (http://creativecommons.org/licenses/by-sa/3.0/).
+*/
+@font-face {
+    font-family: pixel-braille !important;
+    src: url(./fonts/pixel-ascii-braille.ttf) format('truetype');
+    font-style: oblique;
+}
+
+/* 
+  The FontStruction “Khuzdûl - The language of the Dwarvens” (https: //fontstruct.com/fontstructions/show/857933) by “kadanyix” is licensed under a Creative Commons Attribution Non-commercial Share Alike license (http://creativecommons.org/licenses/by-nc-sa/3.0/).
+*/
+@font-face {
+    font-family: khuzdul;
+    src: url(./fonts/khuzdul-the-language-of-the-dwarvens.ttf) format('truetype');
+}
+
+/* 
+  The FontStruction “Tengwar Pixel” (https: //fontstruct.com/fontstructions/show/929150) by “taenia” is licensed under a Creative Commons CC0 Public Domain Dedication license (http://creativecommons.org/publicdomain/zero/1.0/).
+*/
+@font-face {
+    font-family: tengwar;
+    src: url(./fonts/tengwar-pixel.otf) format('opentype');
+    font-style: oblique;
+}
+
+/*
+    https: //github.com/TakWolf/ark-pixel-fon
+*/
+@font-face {
+    font-family: ark16;
+    src: url(./fonts/ark-pixel-16px-monospaced-latin.otf) format('opentype');
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: ark12;
+    src: url(./fonts/ark-pixel-12px-monospaced-latin.otf) format('opentype');
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: ark10;
+    src: url(./fonts/ark-pixel-10px-monospaced-latin.otf) format('opentype');
+    font-style: oblique;
+}
+
+.font_text {
+    font-family: ark12 !important;
+}
+
+.font_text_alt {
+    font-family: pixel-braille !important;
+}
+
+.font_text_alt_2 {
+    font-family: tengwar !important;
+}
+
+html {
+    font-family: ark12 !important;
+    font-weight: normal;
+}

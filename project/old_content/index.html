@@ -1,0 +1,1080 @@
+﻿<!DOCTYPE html>
+<html id="Index-Html">
+  <head>
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Lhuith Portfolio" />
+    <meta
+      name="keywords"
+      content="Eugene Martens,Portfolio,software,art,illustration,software development,
+	 web design,games,software,design, game development, programming, game, game design, junior, "
+    />
+    <meta name="author" content="Lhuith" />
+    <link rel="shortcut icon" type="image/png" href="img/Icons/favicon.ico" />
+
+    <title>Lhuith || Welcome</title>
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!--Import materialize.css-->
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="css/materialize.min.css"
+      media="screen,projection"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="css/custom.css"
+      media="screen,projection"
+    />
+    <!-- Add icon library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!--Import jQuery before materialize.js-->
+
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+    ></script>
+    <script type="text/javascript" src="js/materialize.js"></script>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <script>
+      (function (i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function () {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "https://www.google-analytics.com/analytics.js",
+        "ga"
+      );
+      ga("create", "UA-104121571-1", "auto");
+      ga("send", "pageview");
+    </script>
+
+    <script>
+      $(document).ready(function () {
+        $(".modal").modal();
+        onWindowResize();
+        $("#contact").modal({
+          dismissible: false,
+        });
+        $(".button-collapse").sideNav();
+        $(".carousel.carousel-slider").carousel({
+          fullWidth: true,
+        });
+        $(".scrollspy").scrollSpy({
+          scrollOffset: 60,
+        });
+        $("select").material_select();
+
+        $("#navvy").hide(); //hide your div initially
+        var topOfOthDiv = $("#Projects").offset().top;
+        $(window).scroll(function () {
+          if ($(window).scrollTop() > topOfOthDiv - 235) {
+            //scrolled past the other div?
+            $("#navvy").fadeIn(1200); //reached the desipeach point -- show div
+          } else {
+            $("#navvy").fadeOut(1200);
+          }
+        });
+      });
+    </script>
+  </head>
+
+  <body>
+    <!-- Three JS -->
+    <script type="text/javascript" src="js/THREE/three.min.js"></script>
+    <script type="text/javascript" src="js/THREE/EffectComposer.js"></script>
+    <script type="text/javascript" src="js/THREE/RenderPass.js"></script>
+    <script type="text/javascript" src="js/THREE/CopyShader.js"></script>
+    <script type="text/javascript" src="js/THREE/ShaderPass.js"></script>
+
+    <script
+      type="text/javascript"
+      src="js/Shaders/ForeGroundStars.shader"
+    ></script>
+    <!-- Three JS -->
+
+    <!-- ----------------------------MAIN------------------------- -->
+
+    <!------------------------------MAIN------------------------------>
+    <main>
+      <nav id="navvy" class="fixed display-flex">
+        <div class="nav-wrapper t-a-e">
+          <a data-activates="mobile-demo" class="button-collapse">
+            <i class="material-icons">menu</i>
+          </a>
+          <a
+            id="right"
+            target="_blank"
+            href="https://twitter.com/jhonnywhiplash"
+            class="m-sides-5 waves-effect waves-light btn-floating social twitter social-twit-col z-depth-1"
+          >
+            <i class="fa fa-twitter l-height-40"></i> Sign in with twitter</a
+          >
+          <a
+            id="right"
+            target="_blank"
+            href="https://github.com/Togene"
+            class="m-sides-5 waves-effect waves-light btn-floating social github social-git-col z-depth-1"
+          >
+            <i class="fa fa-github l-height-40"></i> Sign in with github</a
+          >
+          <a
+            id="right"
+            target="_blank"
+            href="https://www.linkedin.com/in/eugene-martens-7b9603a0/"
+            class="m-sides-5 waves-effect waves-light btn-floating social linkedin social-linked-col z-depth-1"
+          >
+            <i class="fa fa-linkedin l-height-40"></i> Sign in with linkedin</a
+          >
+          <a
+            id="right"
+            target="_blank"
+            href="#Contact"
+            class="m-sides-5 waves-effect waves-light btn-floating social linkedin social-linked-col z-depth-1"
+          >
+            <i class="material-icons l-height-40">email</i></a
+          >
+          <ul class="right hide-on-med-and-down">
+            <li>
+              <a href="#Projects">Projects</a>
+            </li>
+            <li>
+              <a href="#Services">Services</a>
+            </li>
+            <li>
+              <a href="#About">About</a>
+            </li>
+            <li>
+              <a href=".\WebGL">WebGl</a>
+            </li>
+          </ul>
+          <ul class="side-nav gold" id="mobile-demo">
+            <li>
+              <a href="#Projects">Projects</a>
+            </li>
+            <li>
+              <a href="#Services">Services</a>
+            </li>
+            <li>
+              <a href="#About">About</a>
+            </li>
+            <li>
+              <a href=".\WebGL">WebGl</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!------------------------------MODAL CONTENT------------------------------>
+
+      <div class="row no-b-margin">
+        <!-- Modal Structure -->
+
+        <div id="m-art-beach" class="modal no-color">
+          <div class="modal-content">
+            <img src="./img/beach_cg.jpg" alt="" class="img-clamp-100" />
+          </div>
+        </div>
+
+        <div id="m-art-avo" class="modal no-color">
+          <div class="modal-content">
+            <img src="./img/Art_09.png" alt="" class="img-clamp-100" />
+          </div>
+        </div>
+
+        <!-- Modal Structure -->
+        <div id="m-art-1" class="modal no-color padding-10">
+          <div class="modal-content">
+            <img src="./img/Art_01.JPG" alt="" class="img-clamp-100" />
+          </div>
+        </div>
+
+        <!-- Modal Structure -->
+        <div id="m-art-9" class="modal no-color padding-10">
+          <div class="modal-content">
+            <img src="./img/Art_09.png" alt="" class="img-clamp-100" />
+          </div>
+        </div>
+
+        <!-- Modal Structure -->
+        <div id="m-art-2" class="modal v-modal-width no-color padding-10">
+          <div class="modal-content">
+            <img src="./img/Art_02.JPG" alt="" class="img-clamp-100" />
+          </div>
+        </div>
+
+        <!-- Modal Structure -->
+        <div id="m-art-3" class="modal v-modal-width no-color padding-10">
+          <div class="modal-content">
+            <img src="./img/Art_03.JPG" alt="" class="img-clamp-100" />
+          </div>
+        </div>
+
+        <div id="m-art-4" class="modal no-color padding-10">
+          <div class="modal-content">
+            <img src="./img/Art_04.JPG" alt="" class="img-clamp-100" />
+          </div>
+        </div>
+
+        <div id="m-art-8" class="modal v-modal-width-2 no-color padding-10">
+          <div class="modal-content">
+            <img src="./img/Art_08.jpg" alt="" class="img-clamp-100" />
+          </div>
+        </div>
+      </div>
+
+      <!------------------------------MODAL CONTENT------------------------------>
+
+      <div class="width-clamp-100 row no-b-margin">
+        <!-- ----------------------------SPLASH------------------------- -->
+
+        <div
+          class="responsive-img pos-rel blue h-100 Splash-Back l2 exclude-h width-clamp-100"
+        >
+          <div class="grad-overlay">
+            <div class="centre position-b">
+              <div class="container centre position-b"></div>
+
+              <h2 class="t-align-c f-c-white splash-argo-f">Lhuith • Eugene</h2>
+              <br />
+              <br />
+              <a class="waves-effect waves-light btn blue" href="#Projects">
+                Projects
+              </a>
+              <a class="waves-effect waves-light btn blue" href="#Services">
+                Services
+              </a>
+              <a class="waves-effect waves-light btn blue" href="#Contact">
+                Contact
+              </a>
+              <a class="waves-effect waves-light btn blue" href=".\WebGL">
+                WebGl
+              </a>
+              <div class="pos-abs-bottom">
+                <img class="img-splash-unity" src="./img/Unity_Made_By.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ----------------------------SPLASH------------------------- -->
+
+      <!-- ----------------------------PROJECTS------------------------- -->
+      <div id="webGL-container">
+        <script type="text/javascript" src="js/main.js"></script>
+        <div class="contain-max m-b-7 row no-b-margin scrollspy" id="Projects">
+          <div class="col s12 h-100 m-b-5">
+            <ul
+              class="h-banner-35 z-depth-1 margin-b-15 ul-grid tabs tabs-transparent no-color waves-light h-banner display-flex"
+            >
+              <div class="w-100 row grid-mode no-color h-banner-row">
+                <li class="tab flex-grow-1">
+                  <h2 class="no-color m-0-1424rm f-c-white margin-a defualt">
+                    projects
+                  </h2>
+                </li>
+                <li class="float-r tab flex-grow-1">
+                  <a class="waves-effect waves-light f-c-white" href="#3"
+                    >Art</a
+                  >
+                </li>
+                <li class="float-r tab flex-grow-1">
+                  <a class="waves-effect waves-light f-c-white" href="#4"
+                    >Rendering</a
+                  >
+                </li>
+                <li class="float-r tab flex-grow-1">
+                  <a class="waves-effect waves-light f-c-white" href="#2"
+                    >Games</a
+                  >
+                </li>
+                <li class="float-r tab flex-grow-1">
+                  <a class="waves-effect waves-light f-c-white" href="#1"
+                    >Software</a
+                  >
+                </li>
+              </div>
+            </ul>
+
+            <div
+              id="2"
+              class="m-t-5 m-b-neg-25 h-100 carousel carousel-slider center"
+              data-indicators="true"
+            >
+              <div class="band w-85">
+                <div class="item-1 span">
+                  <a href="https://sweatyyeti.itch.io/ultragods" class="card">
+                    <div
+                      class="thumb"
+                      style="background-image: url(./img/UltraGods.png)"
+                    ></div>
+                    <article>
+                      <h1>UltraGods</h1>
+                      <text class="f-size-15"
+                        >A fast paced 2-4 local-multiplayer game that will
+                        conjure heated competitive play in short winded rounds.
+                        Face off in Free For All to come out on top and please
+                        the gods! Or team up with an allie in a classic Team
+                        Deathmatch mode.
+                      </text>
+                      <h1>Alpha</h1>
+                      <span class="p-5-0">PC</span>
+                      <span id="hover"
+                        ><i class="material-icons">mouse</i> click for more
+                        ultra
+                      </span>
+                    </article>
+                  </a>
+                </div>
+                <div class="item-2 med-wide">
+                  <a class="card">
+                    <div
+                      class="thumb"
+                      style="
+                        background-image: url(./img/Dimension67_Background.png);
+                      "
+                    ></div>
+                    <article>
+                      <h1>Escape From D-67</h1>
+                      <text class="f-size-15"
+                        >A RPG, Rogue-like adventure game, Survive the harsh
+                        reality of Dimension-67 as Alfonse, a crazy scientist
+                        accidently warped to D-67. Nights are filled with
+                        terror, and days filled with wonder.
+                      </text>
+                      <h1>In Development</h1>
+                      <span>PC</span>
+                    </article>
+                  </a>
+                </div>
+                <div class="item-3 expanded">
+                  <a class="card">
+                    <div
+                      class="thumb"
+                      style="background-image: url(./img/Pinch_background.png)"
+                    ></div>
+                    <article>
+                      <h1>Pinch</h1>
+                      <text class="f-size-15"
+                        >A stealth game set in the early Victorian era, sneak
+                        and skulk your away treasure rooms and dungeons as a
+                        foul loot-golbin. Use a multitude of different abilties
+                        to trick, trap and stealth your away around guards, but
+                        be sure to avoid the light!
+                      </text>
+                      <h1>Pre Alpha</h1>
+                      <span>PC</span>
+                    </article>
+                  </a>
+                </div>
+                <div class="item-4 expanded">
+                  <a class="card">
+                    <div
+                      class="thumb"
+                      style="background-image: url(./img/teneb_orig.png)"
+                    ></div>
+                    <article>
+                      <h1>Lights Out</h1>
+                      <text class="f-size-15"
+                        >Small scale, instance based team game, players join up
+                        with friends and help each other through a nightmarish
+                        world filled with horrors and stalked by the unsleeping.
+                        Take on the role as children trying to battle there
+                        fears of the night as they take pillows, night lights
+                        and toys with them to fight against the terrors of
+                        night.
+                      </text>
+                      <h1>In Development</h1>
+                      <span>Web/PC</span>
+                    </article>
+                  </a>
+                </div>
+                <div class="item-5 expanded">
+                  <a class="card">
+                    <div
+                      class="thumb"
+                      style="background-image: url(./img/mamaro_BackGround.png)"
+                    ></div>
+                    <article>
+                      <h1>Mamaro</h1>
+                      <text class="f-size-15">
+                        After the world is brought to its knees by an unknown
+                        mechanical force, A girl in the wake finds one of the
+                        sentients asleep and accidently actives him. The
+                        sentient with new purpose, helps the little girl find
+                        whats left, of her people.
+                      </text>
+                      <h1>In Development</h1>
+                      <span>PC</span>
+                    </article>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div
+              id="3"
+              class="m-t-5 m-b-neg-25 h-100 carousel carousel-slider center"
+              data-indicators="true"
+            >
+              <div class="band w-85">
+                <div class="item-1 wide">
+                  <a
+                    class="card modal-trigger"
+                    href="#m-art-4"
+                    style="background-image: url(./img/Art_04.JPG)"
+                  >
+                    <div class="thumb"></div>
+                  </a>
+                </div>
+
+                <div class="item-5 med">
+                  <a
+                    class="card modal-trigger"
+                    href="#m-art-1"
+                    style="background-image: url(./img/Art_01.JPG)"
+                  >
+                    <div class="thumb"></div>
+                  </a>
+                </div>
+
+                <div class="item-2 span">
+                  <a
+                    class="card modal-trigger"
+                    href="#m-art-beach"
+                    style="background-image: url(./img/beach_cg.jpg)"
+                  >
+                    <div class="thumb"></div>
+                  </a>
+                </div>
+
+                <div class="item-4 tall">
+                  <a
+                    class="card modal-trigger"
+                    href="#m-art-2"
+                    style="background-image: url(./img/Art_02.JPG)"
+                  >
+                    <div class="thumb tallimg"></div>
+                  </a>
+                </div>
+
+                <div class="item-4 tall">
+                  <a
+                    class="card modal-trigger"
+                    href="#m-art-3"
+                    style="background-image: url(./img/Art_03.JPG)"
+                  >
+                    <div class="thumb"></div>
+                  </a>
+                </div>
+                <div class="item-4 tall">
+                  <a
+                    class="card modal-trigger"
+                    href="#m-art-8"
+                    style="background-image: url(./img/Art_08.jpg)"
+                  >
+                    <div class="thumb tallimg"></div>
+                  </a>
+                </div>
+
+                <div class="item-3 med-wide">
+                  <a
+                    class="card modal-trigger"
+                    href="#m-art-avo"
+                    style="background-image: url(./img/IMG_0123.JPG)"
+                  >
+                    <div class="thumb"></div>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div
+              id="1"
+              class="m-t-5 m-b-neg-25 h-100 carousel carousel-slider center"
+              data-indicators="true"
+            >
+              <div class="band w-85">
+                <div class="item-2 med-wide">
+                  <a
+                    href="https://github.com/Togene/Python_Workshop"
+                    class="card"
+                  >
+                    <div
+                      class="thumb"
+                      style="background-image: url(./img/python-logo.png)"
+                    ></div>
+                    <article>
+                      <h1>Python Workshop</h1>
+                      <text class="f-size-15"
+                        >Samples of my work with Python during my studies at
+                        QUT.</text
+                      >
+
+                      <span id="hover"
+                        ><i class="font-size-30 fa fa-github m-0-10"></i>view
+                        source</span
+                      >
+                    </article>
+                  </a>
+                </div>
+                <div class="item-1 med-wide">
+                  <a href=".\Angular" class="card">
+                    <div
+                      class="thumb"
+                      style="background-image: url(./img/angular2.png)"
+                    ></div>
+                    <article>
+                      <h1>Angular 4</h1>
+                      <text class="f-size-15"
+                        >Small scale client application, written with angular
+                        using firebase.</text
+                      >
+
+                      <span id="hover"
+                        ><i class="material-icons">mouse</i> click for
+                        Demo</span
+                      >
+                    </article>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div
+              id="4"
+              class="m-t-5 m-b-neg-25 h-100 carousel carousel-slider center"
+              data-indicators="true"
+            >
+              <div class="band w-85">
+                <div class="item-2 full">
+                  <a href="./WebGL/model_demo.html" class="card">
+                    <div
+                      class="p-b-45p thumb"
+                      style="background-image: url(./img/Models/All_Models.png)"
+                    ></div>
+                    <article>
+                      <h1>3D Models</h1>
+                      <text class="f-size-15"
+                        >Collection of diffrent 3D-Models, Created in
+                        Blender/3DS MAX</text
+                      >
+                      <span id="hover"
+                        ><i class="material-icons">mouse</i> click to view
+                        demo</span
+                      >
+                    </article>
+                  </a>
+                </div>
+                <div class="item-2 med-wide">
+                  <a href="./WebGL/shader_demo.html" class="card">
+                    <div
+                      class="thumb"
+                      style="background-image: url(./img/ShaderGifDemo.gif)"
+                    ></div>
+                    <article>
+                      <h1>Shader Library</h1>
+                      <text class="f-size-15"
+                        >Collection of diffrent shading techniques</text
+                      >
+                      <span id="hover"
+                        ><i class="material-icons">mouse</i> click to view
+                        demo</span
+                      >
+                    </article>
+                  </a>
+                </div>
+                <div class="item-3 med-wide">
+                  <a
+                    href="https://github.com/Togene/Jave_Game_Engine"
+                    class="card"
+                  >
+                    <div
+                      class="thumb"
+                      style="background-image: url(./img/gamengine.JPG)"
+                    ></div>
+                    <article>
+                      <h1>Iota Engine</h1>
+                      <text class="f-size-15"
+                        >Small 3D game engine written in Java, based on Game
+                        Engine tutorial series made by thebennybox.</text
+                      >
+                      <span id="hover"
+                        ><i class="font-size-30 fa fa-github m-0-10"></i>view
+                        source</span
+                      >
+                    </article>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------PROJECTS------------------------- -->
+
+        <!-- ----------------------------SERVICES------------------------- -->
+        <div
+          class="contain-max m-b-neg-15 row scrollspy peach-tinge1"
+          id="Services"
+        >
+          <nav class="nav-extended dark">
+            <div class="nav-wrapper min-h-5"></div>
+            <div class="nav-content"></div>
+          </nav>
+
+          <div class="col s12 h-100 m-b-neg-15 m-t-5 f-size-17">
+            <div class="row no-color padding-10 m-t-20">
+              <h2
+                class="p-5 z-depth-2 padding-5 no-color f-c-white font-Upper t-align-l margin-a defualt"
+              >
+                SERVICES
+              </h2>
+              <!-- ----------------------------SERVICES------------------------- -->
+              <!-- ----------------------------SERVICES------------------------- -->
+              <h3
+                class="p-5-10 m-t-10 padding-5 no-color f-c-white font-Upper t-align-l defualt m-b-neg-10 w-90 m-0-auto"
+              >
+                <i class="material-icons font-size-40">widgets</i> Development
+              </h3>
+              <div class="band">
+                <div class="item-1 med-wide white p-5">
+                  <h5 class="t-align-c">
+                    <i class="material-icons font-size-30 float-l"
+                      >view_compact</i
+                    >
+                    Python
+                  </h5>
+                  <p class="t-align-l m-b-t-0 p-5">
+                    During my studies, I have utilised Python to create small
+                    and performant applications. These projects have ensured I
+                    can write reusable, testable and efficient code, as well as
+                    pairing Python with front end frameworks. I'm confident with
+                    data protection and user authentication and have stored this
+                    data via MySQL. Beyond my studies, I have implemented Python
+                    for my own personal projects.
+                  </p>
+                </div>
+                <div class="item-1 med-wide white p-5">
+                  <h5 class="t-align-c">
+                    <i class="material-icons font-size-30 float-l"
+                      >swap_horiz</i
+                    >
+                    C#
+                  </h5>
+                  <p class="t-align-l m-b-t-0 p-5">
+                    While studying Game Design, I built most of my games using
+                    C# and have since used it for Software Development. I'm
+                    familiar with methodologies such as MVC, Design Patterns and
+                    SOLID principles. Over time, I've become highly confident in
+                    object-orientated programming.
+                  </p>
+                </div>
+                <div class="item-1 full white p-5">
+                  <h5 class="t-align-c">
+                    <i class="material-icons font-size-30 float-l"
+                      >nature_people</i
+                    >
+                    Game Development
+                  </h5>
+                  <p class="t-align-l m-b-t-0 p-5">
+                    Engine development, tools creation, systems development,
+                    rendering and CG scripting are amoung many of the more
+                    backend jobs I have experience in, developing games from
+                    start to finsh, from concept to deployment.
+                  </p>
+                </div>
+              </div>
+
+              <!-- ----------------------------SERVICES------------------------- -->
+              <!-- ----------------------------SERVICES------------------------- -->
+              <h3
+                class="p-5-10 m-t-10 padding-5 no-color f-c-white font-Upper t-align-l defualt m-b-neg-10 w-90 m-0-auto"
+              >
+                <i class="material-icons font-size-40">palette</i> Design
+              </h3>
+
+              <!--
+									<div class="container t-align-c">
+										<img class="w-100" src="./img/Development_Process.png">
+									</div>
+									-->
+              <div class="band">
+                <div class="item-1 med-wide white p-5">
+                  <h5 class="t-align-c">
+                    <i class="material-icons font-size-30 float-l">devices</i>
+                    Web Design
+                  </h5>
+                  <p class="t-align-l m-b-t-0 p-5">
+                    Personality is the key component to any website, preparing
+                    with concepts and mockups. From there, rendering the site
+                    with HTML and CSS - utilising popular frameworks such as
+                    Bootstrap and Google Material Design as a base, and building
+                    upon it with custom features and styles such as WebGL to
+                    ensure that what is created is unique, personalised and
+                    responsive.
+                  </p>
+                </div>
+                <div class="item-1 med-wide white p-5">
+                  <h5 class="t-align-c">
+                    <i class="material-icons font-size-30 float-l"
+                      >directions_run</i
+                    >
+                    Game Design
+                  </h5>
+                  <p class="t-align-l m-b-t-0 p-5">
+                    Emotion, depth and vibrancy are elements, I as a Game
+                    Designer focus and enhance upon with my own personal touch,
+                    overseeing each step of the development process end-to-end
+                    ensuring that a project meets its requirements and does not
+                    lack any qualities that makes it stand out from the rest.
+                  </p>
+                </div>
+              </div>
+
+              <!-- ----------------------------SERVICES------------------------- -->
+              <!-- ----------------------------SERVICES------------------------- -->
+              <h3
+                class="m-t-10 no-color f-c-white font-Upper t-align-l defualt p-5-10 m-b-neg-10 w-90 m-0-auto"
+              >
+                <i class="material-icons font-size-40">remove_red_eye</i> Visual
+              </h3>
+              <div class="band">
+                <div class="item-1 med-wide white p-5">
+                  <h5 class="t-align-c">
+                    <i class="material-icons font-size-30 float-l">brush</i>
+                    Illustration and Concepting
+                  </h5>
+                  <p class="t-align-l m-b-t-0 p-5">
+                    With a diploma behind my name and unwavering respect for the
+                    arts, I take ideas and (with a bit of coffee) convert them
+                    into rich, vibrant and compositional sound works for any
+                    project.
+                  </p>
+                </div>
+                <div class="item-1 med-wide white p-5">
+                  <h5 class="t-align-c">
+                    <i class="material-icons font-size-30 float-l"
+                      >accessibility</i
+                    >
+                    3D Modeling and Rigging
+                  </h5>
+
+                  <p class="t-align-l m-b-t-0 p-5">
+                    Specialising in low poly art with an emphasis on balancing
+                    style and substance. No aspect of a model is left without
+                    some form of conscious decision behind it and a solid
+                    rigging etiquette makes my animation process that much
+                    smoother.
+                  </p>
+                </div>
+
+                <div class="item-1 med-wide white p-5">
+                  <h5 class="t-align-c">
+                    <i class="material-icons font-size-30 float-l"
+                      >burst_mode</i
+                    >
+                    2D Rendering and Animation
+                  </h5>
+
+                  <p class="t-align-l m-b-t-0 p-5">
+                    With crisp, clean and sharp drawings, I can convert complex
+                    objects into easily readable pixelated works, then bring
+                    them to life using programs such as Aseprite or Photoshop.
+                  </p>
+                </div>
+                <div class="item-1 med-wide white p-5">
+                  <h5 class="t-align-c">
+                    <i class="material-icons font-size-30 float-l"
+                      >wb_incandescent</i
+                    >
+                    Computer Graphics
+                  </h5>
+                  <p class="t-align-l m-b-t-0 p-5">
+                    Combining logic and creativity and an in-depth understanding
+                    of the GPU and its many pipe lines I can bring ideas to
+                    computer screen. Shading, advanced rendering, lighting and
+                    natural simulations are all a part of the process taken to
+                    bring a world to life through HLSL/GLSL.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------SERVICES------------------------- -->
+
+        <!-- ----------------------------ABOUT------------------------- -->
+        <div
+          class="m-t-neg-15 contain-max row no-b-margin scrollspy"
+          id="About"
+        >
+          <nav class="z-depth-1 nav-extended dark">
+            <div class="nav-wrapper min-h-5"></div>
+            <div class="nav-content"></div>
+          </nav>
+          <div class="col s12 h-100 m-b-neg-15">
+            <div class="row no-color padding-10 m-t-20">
+              <div class="t-align-c no-color padding-10">
+                <h2
+                  class="p-5 z-depth-2 padding-5 no-color f-c-white font-Upper t-align-l margin-a defualt"
+                >
+                  About
+                </h2>
+
+                <div class="row m-b-5-i">
+                  <div class="band">
+                    <div class="item-1 tall m-a">
+                      <!-- <h3>What We Do</h3> !-->
+                      <img
+                        src="./img/Eugene_ProfilePicture.jpeg"
+                        class="size"
+                      />
+                    </div>
+                    <div class="item-1 near-full p-5 white f-size-17">
+                      <p>
+                        My name is Eugene Martens, currently a student at QUT,
+                        studying a Bachelors of IT - Majoring in Computer
+                        Science.
+                      </p>
+
+                      <p>
+                        Software Development is my main focus, with an approach
+                        to full stack development. I'm fascinated with problem
+                        solving and enjoy delivering results for the most
+                        complex solutions. I also employ creative ways to build
+                        code out. From my studies, I've enjoyed collaborating
+                        with my peers and working on projects as a team. I think
+                        one of the most positive aspects of Software Development
+                        is the continuous learning aspect and in my spare time I
+                        build projects that utilise new frameworks and
+                        technologies.
+                      </p>
+
+                      <p>
+                        I've previously studied a Bachelors of Game Design and
+                        appreciate building games, starting from scratch. So
+                        much thought, creativity and passion goes into the
+                        development of a game, which in turn means always
+                        consistently learning something new, a large part of why
+                        I enjoy development. Visual aesthetics and design of a
+                        game are my main points of interest, as art,
+                        conceptional design and graphics programming are areas I
+                        am most familiar and adept at.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row t-align-c f-c-black">
+                  <div class="band">
+                    <div class="item-1 med white">
+                      <h5 class="card-title f-c-black green m-t-0">
+                        PROFICIENT
+                      </h5>
+                      <p class="card-p">C#</p>
+                      <p class="card-p">Java</p>
+                      <p class="card-p">C++</p>
+                      <p class="card-p">C</p>
+                      <p class="card-p">Python</p>
+                      <p class="card-p">Front &amp; Back End Development</p>
+                      <p class="card-p">JavaScript</p>
+                      <p class="card-p">HTML &amp; CSS</p>
+                      <p class="card-p">Website Development</p>
+                      <p class="card-p">Advanced Mathematics</p>
+                      <p class="card-p">HLSL/GLSL/CG</p>
+                      <p class="card-p">Unity3D</p>
+                      <p class="card-p">Pixel Art</p>
+                      <p class="card-p">3D Modeling</p>
+                      <p class="card-p">Blender</p>
+                      <p class="card-p">3DS Max</p>
+                      <p class="card-p">Rigging</p>
+                      <p class="card-p">WebGl/OpenGL</p>
+                      <p class="card-p">Visual Studio and VS Code</p>
+                      <p class="card-p">Git</p>
+                    </div>
+                    <div class="item-1 med white">
+                      <h5 class="card-title f-c-black yellow m-t-0">AVERAGE</h5>
+                      <p class="card-p">SQL</p>
+                      <p class="card-p">Database Management</p>
+                      <p class="card-p">Project Management</p>
+                      <p class="card-p">Angular 2+</p>
+                      <p class="card-p">.NET</p>
+                      <p class="card-p">3D Animation in Maya/Blender/3DS Max</p>
+                      <p class="card-p">Landscape/Level Concept</p>
+                      <p class="card-p">Game Mechanics Development</p>
+                      <p class="card-p">Illustration & Concepting</p>
+                      <p class="card-p">
+                        2D Animation in Flash/Photoshop/Aseprite
+                      </p>
+                    </div>
+                    <div class="item-1 med white">
+                      <h5 class="card-title f-c-black red m-t-0">SOME</h5>
+                      <p class="card-p">UI Design & Development</p>
+                      <p class="card-p">Profiling & Monetisation</p>
+                      <p class="card-p">Maya</p>
+                      <p class="card-p">Logo Design</p>
+                      <p class="card-p">Data Analytics</p>
+                      <p class="card-p">Characters Concepting</p>
+                    </div>
+                  </div>
+                  <br />
+                </div>
+
+                <a href="./files/Eugene_Martens_Resume.pdf" download
+                  ><label
+                    class="m-t-neg-5 showMore waves-effect f-c-white waves-light btn blue"
+                  >
+                    <i class="material-icons left">file_download</i>Download
+                    Resume</label
+                  ></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------ABOUT------------------------- -->
+
+        <!-- ----------------------------CONTACT------------------------- -->
+        <div class="contain-max row no-b-margin scrollspy" id="Contact">
+          <nav class="z-depth-1 nav-extended dark">
+            <div class="nav-wrapper min-h-5"></div>
+            <div class="nav-content"></div>
+          </nav>
+
+          <div class="col s12 h-100 m-b-5">
+            <div class="row no-color padding-10 m-t-20">
+              <div class="no-color padding-10 centre">
+                <h2
+                  class="p-5 z-depth-2 padding-5 no-color f-c-white font-Upper t-align-l margin-a defualt"
+                >
+                  Contact
+                </h2>
+                <form
+                  action="https://formspree.io/genejmartens@gmail.com"
+                  method="POST"
+                >
+                  <div class="container p-m-10 white f-c-black">
+                    <div class="container w-90">
+                      <ul class="content-display f-size-17">
+                        <li class="grid padding-t-b-5">
+                          <i class="material-icons"> email </i>
+                          <text class="m-a">genejmartens@gmail.com</text>
+                        </li>
+                      </ul>
+
+                      <div class="input-field col s12">
+                        <select
+                          type="hidden"
+                          required
+                          name="_subject"
+                          value="New submission!"
+                        >
+                          <option value="No Topic" disabled selected>
+                            Topic
+                          </option>
+                          <option value="Design and Development">
+                            Design and Development
+                          </option>
+                          <option value="Visual Art">Visual Art</option>
+                          <option value="Miscellaneous">Miscellaneous</option>
+                        </select>
+                        <label>Area Of Interest</label>
+                      </div>
+
+                      <div class="row">
+                        <div class="input-field col s12">
+                          <i class="material-icons prefix">account_circle</i>
+                          <input
+                            id="icon_prefix"
+                            required
+                            type="text"
+                            name="Name"
+                            class="validate"
+                          />
+                          <label for="icon_prefix">Name</label>
+                        </div>
+                      </div>
+
+                      <div class="row">
+                        <div class="input-field col s12">
+                          <i class="material-icons prefix">email</i>
+                          <input
+                            id="email"
+                            type="email"
+                            required
+                            name="Email"
+                            class="validate border-b"
+                          />
+                          <label
+                            for="email"
+                            data-error="wrong"
+                            data-success="right"
+                            >Email</label
+                          >
+                        </div>
+                      </div>
+
+                      <div class="row m-b-10">
+                        <div class="input-field col s12">
+                          <i class="material-icons prefix">mode_edit</i>
+                          <textarea
+                            id="icon_prefix2"
+                            class="materialize-textarea"
+                            name="Message"
+                          ></textarea>
+                          <label for="icon_prefix2">Message</label>
+                        </div>
+                      </div>
+                      <!-- onclick="Materialize.toast('Sent!', 5000)" -->
+                    </div>
+                  </div>
+
+                  <button
+                    class="m-t-5 showMore waves-effect waves-light btn blue"
+                    type="submit"
+                    value="Send"
+                  >
+                    <i class="material-icons left">email</i>Send
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!------------------------------MAIN------------------------------>
+    <!------------------------------MAIN------------------------------>
+
+    <footer class="page-footer gold footer-body padding-10">
+      <div class="col s12">
+        <h6 class="t-align-c">Yirluin</h6>
+      </div>
+    </footer>
+  </body>
+</html>

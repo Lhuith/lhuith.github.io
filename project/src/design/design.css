@@ -1,0 +1,191 @@
+:root {
+  --color_background: red;
+  --color_foreground: red;
+
+  --color_text: red;
+  --color_text_alt: red;
+
+  --border-width: 3px;
+
+  --blur-threshold: 10px;
+}
+
+.thumb_wrapper {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+@media only screen and (min-width : 993px) {
+  .thumb_wrapper {
+    width: 205px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+  }
+}
+
+.thumb_wrapper img {
+  width: 180px;
+  height: 143px;
+  object-fit: cover
+}
+
+a {
+  color: var(--color_text);
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--color_background);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--color_text);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color_text_alt);
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.display_flex {
+  display: inline-flex;
+}
+
+
+.display_menu {
+  display: inline-flex;
+}
+
+@media only screen and (min-width : 993px) {
+  .display_menu {
+    display: flex;
+  }
+}
+
+.display_grid {
+  display: inline-grid;
+}
+
+@media only screen and (min-width : 993px) {
+  .display_grid {
+    display: grid;
+  }
+}
+
+.display_inline_grid {
+  display: inline-grid;
+}
+
+.display_inline {
+  display: inline-flex;
+}
+
+@media only screen and (min-width : 993px) {
+  .display_inline {
+    display: inline;
+  }
+}
+
+.pointer_no {
+  pointer-events: none;
+}
+
+.pointer_auto {
+  pointer-events: auto;
+}
+
+.cursor_hover {
+  cursor: pointer;
+}
+
+.color_text {
+  color: var(--color_text)
+}
+
+.color_text_alt {
+  color: var(--color_text_alt)
+}
+
+.color_text_foreground {
+  color: var(--color_foreground)
+}
+
+.color_icon {
+  background-color: var(--color_text) !important
+}
+
+.color_foreground {
+  background-color: var(--color_foreground) !important
+}
+
+.color_background {
+  background-color: var(--color_background) !important
+}
+
+.color_background_nil {
+  background-color: transparent !important;
+}
+
+.size_text {
+  font-size: large;
+}
+
+.solid_r {
+  border-right: transparent !important
+}
+
+@media only screen and (min-width : 993px) {
+  .solid_r {
+    border-right: var(--border-width) solid var(--color_foreground);
+  }
+}
+
+.solid_l {
+  border-left: var(--border-width) solid var(--color_foreground);
+}
+
+.solid_b {
+  border-bottom: var(--border-width) solid var(--color_foreground);
+}
+
+.solid_b_alt {
+  border-bottom: var(--border-width) solid var(--color_text);
+}
+
+.solid_t {
+  border-top: var(--border-width) solid var(--color_foreground);
+}
+
+.solid_f {
+  border-right: var(--border-width) solid var(--color_foreground);
+  border-left: var(--border-width) solid var(--color_foreground);
+  border-bottom: var(--border-width) solid var(--color_foreground);
+  border-top: var(--border-width) solid var(--color_foreground);
+}
+
+
+/*  */
+.art {
+  /* color: blue */
+}
+
+.technical {
+  /* color: red */
+}
+
+.game {
+  /* color: green */
+}

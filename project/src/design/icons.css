@@ -1,0 +1,21 @@
+:root {
+    --sprite_pixel_size: 8px;
+    --icon_size: 32px;
+    --icon_background_size: calc(7*100%) 100%;
+}
+
+/* 
+    icons inspired by: DezrasDragons, 8x8 icons are hard, thank you so much for a good template
+    https: //opengameart.org/users/dezrasdragons
+    specifically : https: //opengameart.org/content/8x8-icons-and-symbols
+*/
+.icon {
+    display: inline-block;
+    text-indent: -9999px;
+    image-rendering: pixelated;
+    width: var(--icon_size);
+    height: var(--icon_size);
+    transform: translateX(-var(--icon_size));
+}
+
+.icon .theme {}

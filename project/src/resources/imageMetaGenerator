@@ -1,0 +1,42 @@
+#!/bin/sh
+
+IMG_DIR=$( dirname "/../img/art/*" )
+DIR=$( dirname "${BASH_SOURCE[0]}" )
+  # numImages=$(ls "$(dirname $f/*)".{png,PNG,jpeg,jpg,JPG} | wc -l)
+
+meta={
+j=0
+for d in $DIR$IMG_DIR/*; do
+  if [ -d "$d" ]; then
+  if ((j != 0)); then
+    meta+=','
+  fi
+  art_dirname=$(basename "$d")
+  meta+=\"$art_dirname"\":{"
+  i=0
+  for f in $d/*; do
+    if ((i != 0)); then
+      meta+=','
+    fi
+    meta+=\""image_"$i"\":{"
+
+    # https://stackoverflow.com/questions/965053/extract-filename-and-extension-in-bash
+    # thanks Anya Shenanigans, Ludovic Kuty
+    filename=$(basename -- "$f")
+    meta+=\"name\": meta+="\"${filename%.*}\""
+    # echo ${filename%.*}
+    meta+=,\"url\": meta+=\"./img/art/$art_dirname/$filename\"
+
+    meta+=}
+    ((i=i+1))
+  done
+    meta+=}
+    ((j=j+1))
+  fi
+done
+meta+=}
+
+if [ $# -eq 0 ] || [ $1 != "d" ];
+then
+  echo $meta
+fi

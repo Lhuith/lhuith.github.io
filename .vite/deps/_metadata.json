@@ -1,0 +1,37 @@
+{
+  "hash": "6996f4e2",
+  "configHash": "d1191f33",
+  "lockfileHash": "e3b0c442",
+  "browserHash": "50d7f866",
+  "optimized": {
+    "three": {
+      "src": "../../project/node_modules/three/build/three.module.js",
+      "file": "three.js",
+      "fileHash": "2fb3592b",
+      "needsInterop": false
+    },
+    "three/addons/controls/OrbitControls.js": {
+      "src": "../../project/node_modules/three/examples/jsm/controls/OrbitControls.js",
+      "file": "three_addons_controls_OrbitControls__js.js",
+      "fileHash": "0eb273a0",
+      "needsInterop": false
+    },
+    "three/addons/postprocessing/ShaderPass.js": {
+      "src": "../../project/node_modules/three/examples/jsm/postprocessing/ShaderPass.js",
+      "file": "three_addons_postprocessing_ShaderPass__js.js",
+      "fileHash": "b69ef180",
+      "needsInterop": false
+    },
+    "three/src/renderers/shaders/UniformsLib.js": {
+      "src": "../../project/node_modules/three/src/renderers/shaders/UniformsLib.js",
+      "file": "three_src_renderers_shaders_UniformsLib__js.js",
+      "fileHash": "4de654ee",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-LVZIUXX7": {
+      "file": "chunk-LVZIUXX7.js"
+    }
+  }
+}

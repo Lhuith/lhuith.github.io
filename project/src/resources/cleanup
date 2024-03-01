@@ -1,0 +1,3 @@
+#!/bin/sh
+echo "cleaning up build"
+rm -rf ../assets && [ -e ../index.html ] && rm ../index.html

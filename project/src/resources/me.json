@@ -1,0 +1,280 @@
+{
+  "info": {
+    "name": "Eugene",
+    "last": "Martens",
+    "alias": "Lhuith",
+    "title": "Yirluin",
+    "email": "genejmartens@gmail.com",
+    "summary": "Software Engineer, Indie Developer, Illustrative and Musical Artist with a passion for fashion and a need for speed and also a whole lotta pie."
+  },
+  "links": [
+    {
+      "name": "email",
+      "icon": "email",
+      "link": "mailto:genejmartens@gmail.com"
+    },
+    {
+      "name": "spotify",
+      "icon": "spotify",
+      "link": "https://open.spotify.com/user/1242038188"
+    },
+    {
+      "name": "linkedin",
+      "icon": "linkedin",
+      "link": "https://www.linkedin.com/in/eugene-martens-7b9603a0/"
+    },
+    {
+      "name": "github",
+      "icon": "github",
+      "link": "https://github.com/Lhuith"
+    },
+    {
+      "name": "itch",
+      "icon": "itch",
+      "link": "https://lhuith.itch.io/"
+    }
+  ],
+  "skills": [
+    {
+      "topic": "Engineering",
+      "summary": "Software Systems, Rendering & Graphics, Low Level Languages, FrontEnd, Backend",
+      "areas": [
+        {
+          "name": "Languages",
+          "list": "Go, C++, C, Python, JavaScript, Pascal, Java",
+          "programs": "Goland, Visual Studio Code, Code, Atom, IDLE, Pycharm, Turbo Pascal",
+          "tools": "Bash, Make, Git",
+          "extra": [
+            {
+              "name": "frameworks",
+              "description": "Angular 4, ASP.NET, Custom (Built or LT)"
+            }
+          ]
+        },
+        {
+          "name": "Web",
+          "list": "HTML/CSS, JavaScript, TypeScript",
+          "programs": "Webstorm, Code, Custom (Built or LT)",
+          "tools": "",
+          "extra": [
+            {
+              "name": "frameworks",
+              "description": "Node.js, NPM"
+            }
+          ]
+        },
+        {
+          "name": "Rendering",
+          "list": "C++, HLSL, GLSL, WebGL, C#, JavaScript",
+          "programs": "Rider, Webstorm, Code, Custom (Built or Lite)",
+          "tools": "",
+          "extra": [
+            {
+              "name": "frameworks",
+              "description": "Three.JS, Custom/LWJGL"
+            }
+          ]
+        },
+        {
+          "name": "Databases",
+          "list": "SQL, PostGresSQL, MQL, GoLand",
+          "programs": "PgAdmin, MariaDB",
+          "tools": "",
+          "extra": [
+            {
+              "name": "frameworks",
+              "description": "Three.JS, Custom/LWJGL"
+            }
+          ]
+        },
+        {
+          "name": "Mathematics",
+          "list": "Computational, Linear Algebra, Calculus I, Discreate, Set Theory, Trigonometry",
+          "programs": "Matlab",
+          "tools": "",
+          "extra": []
+        }
+      ],
+      "extra": [
+        {
+          "name": "devops",
+          "description": "Kubernetes, CI/CD, Sentry, GCP"
+        }
+      ],
+      "meta": [
+        "technical"
+      ]
+    },
+    {
+      "topic": "Art & Design",
+      "summary": "Game Development, Pixel Art, Illustration, Concepting, Website Design",
+      "areas": [
+        {
+          "name": "Game Design",
+          "list": "Game Mechanics, Narratives, GUI, Flow",
+          "programs": "Unity, Unreal, Three.JS, Notion, Excel",
+          "tools": "",
+          "extra": []
+        },
+        {
+          "name": "3D Art",
+          "list": "Modeling, Rigging, Shading",
+          "programs": "Unity, Unreal, Blender, Maya, 3DS Max",
+          "tools": "",
+          "extra": []
+        },
+        {
+          "name": "2D Art",
+          "list": "Characters, UI, Landscapes",
+          "programs": "AseSprite, Photoshop",
+          "tools": "",
+          "extra": []
+        }
+      ],
+      "meta": [
+        "art"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "name": "Formal",
+      "certification": [
+        {
+          "name": "Bachelor of Information Technology QUT",
+          "sub": "Major in Computer Science, Minor in Mathematics",
+          "date": "2022",
+          "institute": "QUT",
+          "score": "5.98 GPA",
+          "meta": [
+            "technical"
+          ]
+        },
+        {
+          "name": "Bachelor of Interactive Development",
+          "sub": "Major in Game Design, Minor in Animation",
+          "date": "2015",
+          "institute": "SAE Institute Brisbane",
+          "score": "5.5",
+          "meta": [
+            ""
+          ]
+        },
+        {
+          "name": "Diploma of Visual Arts",
+          "date": "2017",
+          "institute": "Tafe Queensland",
+          "score": "",
+          "meta": [
+            "art"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Informal",
+      "certification": [
+        {
+          "name": "SQL Bootcamp",
+          "date": "2022",
+          "institute": "Udemy",
+          "score": "",
+          "meta": [
+            "technical"
+          ]
+        },
+        {
+          "name": "Javascript",
+          "date": "2022",
+          "institute": "Udemy",
+          "score": "",
+          "meta": [
+            "technical"
+          ]
+        },
+        {
+          "name": "Computer Graphics",
+          "date": "2023",
+          "institute": "EDX",
+          "score": "",
+          "meta": [
+            "technical"
+          ]
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "name": "Backend, Senior Software Engineer",
+      "start_date": "05/2020",
+      "end_date": "",
+      "work": "Data Zoo",
+      "description": [
+        "Management of small outsource team along with 2-3 local developers",
+        "insuring code quality/standards were met through git PR process",
+        "Implemented backend systems to enhance, improve or add to existing API structure,",
+        "Author of a sequencing request system that utilizes threading to make concurrent calls until a response has been given",
+        "Integration of new services, routes and features, this includes new API call routes, new countries and sources we can call and act as a middle man to other sources"
+      ],
+      "meta": [
+        "technical"
+      ]
+    },
+    {
+      "name": "Founder, Creative Studio",
+      "start_date": "01/2023",
+      "end_date": "",
+      "work": "Yirluin",
+      "description": [
+        "Indie Web Game Development",
+        "Art Project Development",
+        "Music Design & Development"
+      ],
+      "meta": [
+        ""
+      ]
+    },
+    {
+      "name": "CoFounder, Creative Studio",
+      "start_date": "01/2015",
+      "end_date": "01/2023",
+      "work": "Lith",
+      "description": [
+        "Participating and contributing to art galleries",
+        "Indie Web Game Development using THREE.JS and Javascript",
+        "Indie PC Game Developed using Unity, Unreal and Home Brew engine’s"
+      ],
+      "meta": [
+        ""
+      ]
+    },
+    {
+      "name": "Art Contribution",
+      "start_date": "04/2019",
+      "end_date": "09/2019",
+      "work": "Trasher Planet Exhibit",
+      "description": [
+        "Creating a piece for an Art Exhibition 'Trash Planet'",
+        "The theme of this was revolving around recycling and raising environmental awareness",
+        "I combined my interest with tech and sustainability to create this piece"
+      ],
+      "meta": [
+        "art"
+      ]
+    },
+    {
+      "name": "Art Contribution",
+      "start_date": "01/2019",
+      "end_date": "02/2019",
+      "work": "How Much Exhibit",
+      "description": [
+        "Created an online art piece for 'How Much' at The Art Space by Natalie Wong",
+        "This exhibition was focused around consumerism"
+      ],
+      "meta": [
+        "art"
+      ]
+    }
+  ]
+}

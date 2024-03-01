@@ -1,0 +1,44 @@
+{
+    "digital": {
+        "image_0": {
+            "name": "MeMask_f",
+            "url": "./img/art/digital/MeMask_f.png"
+        },
+        "image_1": {
+            "name": "Pet_w",
+            "url": "./img/art/digital/Pet_w.jpeg"
+        },
+        "image_2": {
+            "name": "RayTracingGlitch_w",
+            "url": "./img/art/digital/RayTracingGlitch_w.png"
+        },
+        "image_3": {
+            "name": "SexyBurgerLady_f",
+            "url": "./img/art/digital/SexyBurgerLady_f.png"
+        }
+    },
+    "illustrations": {
+        "image_0": {
+            "name": "12Apostles_w",
+            "url": "./img/art/illustrations/12Apostles_w.jpg"
+        },
+        "image_1": {
+            "name": "Sexacado_w",
+            "url": "./img/art/illustrations/Sexacado_w.png"
+        },
+        "image_2": {
+            "name": "VirginMary_f",
+            "url": "./img/art/illustrations/VirginMary_f.jpg"
+        }
+    },
+    "photography": {
+        "image_0": {
+            "name": "NightTimeMoranbah2_f",
+            "url": "./img/art/photography/NightTimeMoranbah2_f.jpeg"
+        },
+        "image_1": {
+            "name": "NightTimeMoranbah_f",
+            "url": "./img/art/photography/NightTimeMoranbah_f.jpeg"
+        }
+    }
+}

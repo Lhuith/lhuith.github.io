@@ -1,0 +1,37 @@
+{
+  "sizeX": 10,
+  "sizeY": 10,
+  "iconSize": 32,
+  "icons": [
+    {
+      "name": "gl"
+    },
+    {
+      "name": "spotify"
+    },
+    {
+      "name": "theme"
+    },
+    {
+      "name": "projects"
+    },
+    {
+      "name": "gallery"
+    },
+    {
+      "name": "email"
+    },
+    {
+      "name": "github"
+    },
+    {
+      "name": "linkedin"
+    },
+    {
+      "name": "itch"
+    },
+    {
+      "name": "resume"
+    }
+  ]
+}

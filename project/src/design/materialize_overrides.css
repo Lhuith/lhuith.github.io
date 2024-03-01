@@ -1,0 +1,64 @@
+/* ! materialize overrides, sorry guys, love ya work*/
+.btn,
+.btn-small,
+.btn-large,
+.btn-flat {
+    border-radius: 0%;
+    padding: 0 5px;
+}
+
+[type=checkbox].filled-in:not(:checked)+span:not(.lever):after {
+    width: var(--icon_size);
+    height: var(--icon_size);
+}
+
+[type=checkbox].filled-in:checked+span:not(.lever):after {
+    width: var(--icon_size);
+    height: var(--icon_size);
+    border: 0px solid var(--primary-color);
+}
+
+[type=checkbox].filled-in:checked+span:not(.lever):before {
+    top: 0;
+    left: 2px;
+    width: 10px;
+    height: 24px;
+    border-top: 0px solid rgba(0, 0, 0, 0);
+    border-left: 0px solid rgba(0, 0, 0, 0);
+    border-right: 0px solid rgba(0, 0, 0, 0);
+    border-bottom: 0px solid rgba(0, 0, 0, 0);
+    -webkit-transform: rotateZ(37deg);
+    transform: rotateZ(37deg);
+    -webkit-transform-origin: 100% 100%;
+    transform-origin: 100% 100%
+}
+
+.material-tooltip {
+    background-color: transparent;
+    filter: drop-shadow(1px 1px 0px var(--color_background));
+}
+
+.material-tooltip {
+    font-family: ark12;
+}
+
+/*! custom padding, please use materialize where possible */
+/*! else this will follow the same convention */
+/* *-5 | pl-5 (1.5rem) + _half (0.5rem) */
+.pl-5_half {
+    padding-left: 2rem !important;
+}
+
+
+
+.row {
+    display: flow;
+    grid-template-columns: repeat(1, 1fr)
+}
+
+@media only screen and (min-width : 993px) {
+    .row {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr)
+    }
+}

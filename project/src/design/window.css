@@ -1,0 +1,112 @@
+ .page {
+     position: fixed;
+     left: 0;
+     right: 0;
+     top: 0;
+     bottom: 0;
+ }
+
+ .overflowy {
+     overflow-y: scroll;
+ }
+
+ .inline_flex {
+     display: inline-flex;
+ }
+
+ .background_z {
+     z-index: -1;
+ }
+
+ .background_z_minus1 {
+     z-index: -2;
+ }
+
+ .fixed {
+     position: fixed;
+ }
+
+ .absolute {
+     position: absolute;
+ }
+
+ .bottom {
+     bottom: 0;
+ }
+
+ .top {
+     top: 0;
+ }
+
+ .left {
+     left: 0;
+ }
+
+ .right {
+     right: 0;
+ }
+
+ .width_max_content {
+     max-width: max-content;
+ }
+
+ .width_min_content {
+     max-width: min-content;
+ }
+
+ .width100 {
+     width: 100%;
+ }
+
+ .width75 {
+     width: 75%;
+ }
+
+ .width50 {
+     width: 50%;
+ }
+
+ .width25 {
+     width: 25%;
+ }
+
+ .width_min {
+     width: min-content;
+ }
+
+ .width_min {
+     width: max-content;
+ }
+
+ @media only screen and (min-width : 993px) {
+     .width_min {
+         width: min-content;
+     }
+ }
+
+
+ .height100 {
+     height: 100%;
+ }
+
+ /* force height to icon pixel height */
+ .icon_block_height {
+     height: var(--icon_size) !important;
+ }
+
+ /* force height to icon pixel height */
+ .icon_block_width {
+     width: var(--icon_size) !important;
+ }
+
+ .ignore_mouse {
+     pointer-events: none;
+ }
+
+ .inline_flex {
+     display: inline-flex;
+ }
+
+ .flex {
+     display: flex;
+ }

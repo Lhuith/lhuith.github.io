@@ -1,0 +1,14 @@
+{
+    "Trasher Planet": {
+        "link": "https://www.facebook.com/events/the-art-space-by-natalie-wong/trasher-planet/2343494445863208/",
+        "preview": "src/img/exhibitions/TrasherPlanet.jpg",
+        "description": "Exploration in Materiality & Conceptualisations",
+        "type": "digital"
+    },
+    "How Much": {
+        "link": "https://www.facebook.com/photo/?fbid=416093052462377&set=a.333060220765661&locale=en_GB",
+        "preview": "src/img/exhibitions/HowMuch.jpg",
+        "description": "An exhibition focused around consumerism",
+        "type": "digital"
+    }
+}

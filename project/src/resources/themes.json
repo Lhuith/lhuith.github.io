@@ -1,0 +1,214 @@
+{
+  "themes": [
+    {
+      "name": "wish_gb",
+      "thanks": "Created by Kerrie Lake, https://lospec.com/kerrielake",
+      "colors": [
+        "#622e4c",
+        "#7550e8",
+        "#608fcf",
+        "#8be5ff"
+      ]
+    },
+    {
+      "name": "space_haze",
+      "thanks": "Created by WildLeoKnight, https://lospec.com/wildleoknight",
+      "colors": [
+        "#0b0630",
+        "#6b1fb1",
+        "#cc3495",
+        "#f8e3c4"
+      ]
+    },
+    {
+      "name": "moonlight_gb",
+      "thanks": "Created by Tofu, https://lospec.com/tofupixel",
+      "colors": [
+        "#0f052d",
+        "#203671",
+        "#36868f",
+        "#5fc75d"
+      ]
+    },
+    {
+      "name": "soda_cap",
+      "thanks": "Created by Cappuchi, https://lospec.com/cpch01",
+      "colors": [
+        "#2176cc",
+        "#ff7d6e",
+        "#fca6ac",
+        "#e8e7cb"
+      ]
+    },
+    {
+      "name": "2bit_demichrome",
+      "thanks": "Created by Space Sandwich, https://lospec.com/spacesandwich",
+      "colors": [
+        "#211e20",
+        "#555568",
+        "#a0a08b",
+        "#e9efec"
+      ]
+    },
+    {
+      "name": "rustic_gb",
+      "thanks": "Created by Kerrie Lake, https://lospec.com/kerrielake",
+      "colors": [
+        "#211e20",
+        "#2c2137",
+        "#edb4a1",
+        "#a96868"
+      ]
+    },
+    {
+      "name": "bittersweet",
+      "thanks": "Created by porcirelius, https://lospec.com/porcirelius",
+      "colors": [
+        "#282328",
+        "#545c7e",
+        "#c56981",
+        "#a3a29a"
+      ]
+    },
+    {
+      "name": "coldfire_gb",
+      "thanks": "Created by Kerrie Lake, https://lospec.com/kerrielake",
+      "colors": [
+        "#46425e",
+        "#5b768d",
+        "#d17c7c",
+        "#f6c6a8"
+      ]
+    },
+    {
+      "name": "gold_gb",
+      "thanks": "Created by Isa, https://lospec.com/isas-studio",
+      "colors": [
+        "#210b1b",
+        "#4d222c",
+        "#9d654c",
+        "#cfab51"
+      ]
+    },
+    {
+      "name": "fuzzyfour",
+      "thanks": "Created by P-Tux7, https://lospec.com/p-tux7",
+      "colors": [
+        "#302387",
+        "#ff3796",
+        "#00faac",
+        "#fffdaf"
+      ]
+    },
+    {
+      "name": "kankei4",
+      "thanks": "Created by un_deady, https://lospec.com/undeady",
+      "colors": [
+        "#060608",
+        "#2f256b",
+        "#f42e1f",
+        "#ffffff"
+      ]
+    },
+    {
+      "name": "cherrymelon",
+      "thanks": "Created by WildLeoKnight, https://lospec.com/wildleoknight",
+      "colors": [
+        "#012824",
+        "#265935",
+        "#ff4d6d",
+        "#fcdeea"
+      ]
+    },
+    {
+      "name": "hollow",
+      "thanks": "Created by Poltergasm, https://lospec.com/iampoltergasm",
+      "colors": [
+        "#0f0f1b",
+        "#565a75",
+        "#c6b7be",
+        "#fafbf6"
+      ]
+    },
+    {
+      "name": "kirokaze_gameboy",
+      "thanks": "Created by Kirokaze, https://lospec.com/kirokaze",
+      "colors": [
+        "#332c50",
+        "#46878f",
+        "#94e344",
+        "#e2f3e4"
+      ]
+    },
+    {
+      "name": "nostalgia",
+      "thanks": "Created by WildLeoKnight, https://lospec.com/wildleoknight",
+      "colors": [
+        "#405010",
+        "#708028",
+        "#a0a840",
+        "#d0d058"
+      ]
+    },
+    {
+      "name": "dustbyte",
+      "thanks": "Created by polyphrog, https://lospec.com/poly-phrog",
+      "colors": [
+        "#372a39",
+        "#aa644d",
+        "#788374",
+        "#f5e9bf"
+      ]
+    },
+    {
+      "name": "moon_crystal",
+      "thanks": "Created by Doph, https://lospec.com/dophsart",
+      "colors": [
+        "#755f9c",
+        "#8d89c7",
+        "#d9a7c6",
+        "#ffe2db"
+      ]
+    },
+    {
+      "name": "eggplant_witch",
+      "thanks": "Created by P-Tux7, https://lospec.com/p-tux7",
+      "colors": [
+        "#5f064d",
+        "#877e6f",
+        "#9cd52a",
+        "#faffec"
+      ]
+    },
+    {
+      "name": "bicycle",
+      "thanks": "Created by Braquen, https://lospec.com/braquen",
+      "colors": [
+        "#161616",
+        "#ab4646",
+        "#8f9bf6",
+        "#f0f0f0"
+      ]
+    },
+    {
+      "name": "neon_night_sky",
+      "thanks": "Created by SoundsDotZip, https://lospec.com/soundsdotzip",
+      "colors": [
+        "#131626",
+        "#4d4d80",
+        "#e6a1cf",
+        "#ffe6ea"
+      ]
+    },
+    {
+      "name": "laser_lab",
+      "thanks": "Created by polyphrog, https://lospec.com/poly-phrog",
+      "colors": [
+        "#271d2c",
+        "#7b6960",
+        "#e01f3f",
+        "#fff8ed"
+      ]
+    }
+  ]
+}

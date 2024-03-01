@@ -1,0 +1,4 @@
+#!/bin/sh
+
+echo "copying images to assets folder"
+cp -r src/img ../assets/img
