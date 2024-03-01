@@ -221,7 +221,7 @@ export const WEBGL_SCENE_CHANGE = function (l) {
 (function () {
   //
   // setting theme
-  let themeIndex = 20;
+  let themeIndex = 10;
   SetSiteTheme(GetThemeData().themes[themeIndex]);
 
   // events manager
