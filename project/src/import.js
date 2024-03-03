@@ -45,5 +45,17 @@ export const WelcomeImage = new URL(
   import.meta.url
 );
 
+export const WelcomeImageArray = [];
+for (let url of [
+  "img/sprites/welcomeSpritesAnimated1.png",
+  "img/sprites/welcomeSpritesAnimated2.png",
+  "img/sprites/welcomeSpritesAnimated3.png",
+  "img/sprites/welcomeSpritesAnimated4.png",
+  "img/sprites/welcomeSpritesAnimated5.png",
+  "img/sprites/welcomeSpritesAnimated6.png",
+  "img/sprites/welcomeSpritesAnimated7.png",
+]) {
+  WelcomeImageArray.push(new URL(url, import.meta.url));
+}
 export const MeImage = new URL("img/me/1582883494786.jpg", import.meta.url);
 export const SocialImage = new URL("img/icons/social.png", import.meta.url);

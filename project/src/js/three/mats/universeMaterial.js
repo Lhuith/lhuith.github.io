@@ -94,7 +94,7 @@ export const UniverseMaterialCheap = new THREE.ShaderMaterial({
       vec2 st = ((gl_FragCoord.xy - 0.5 * vec2(${resolution}, ${resolution})) / ${resolution});
       st *= scale;
 
-      vec3 color = stars(st) * vUv.y;
+      vec3 color = stars(st) * vUv.y * 4.0;
 
       gl_FragColor = (vec4(color, color.r));
     }`,
